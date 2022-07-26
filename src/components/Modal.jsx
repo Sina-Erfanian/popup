@@ -29,7 +29,7 @@ const Modal = () => {
         background: style
           ? "linear-gradient(90deg, rgba(54,170,155,0.7987570028011204) 43%, rgba(0,212,255,1) 100%)"
           : null,
-          maxHeight : style ? "400px" : null 
+        maxHeight: style ? "400px" : null,
       }}
     >
       <Swiper
@@ -57,7 +57,6 @@ const Modal = () => {
               <video
                 className="video"
                 controls
-                autoPlay
                 src={require("../media/Modern React with Redux Training Course.mp4")}
               ></video>
             </div>
@@ -77,7 +76,6 @@ const Modal = () => {
               <video
                 className="video"
                 controls
-                autoPlay
                 src={require("../media/Mastering Laravel PHP for Beginners and Intermediate.mp4")}
               ></video>
             </div>
@@ -97,7 +95,6 @@ const Modal = () => {
               <video
                 className="video"
                 controls
-                autoPlay
                 src={require("../media/Learn Modern Javascript (Build and Test Apps) - Full Course.mp4")}
               ></video>
             </div>
